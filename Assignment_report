@@ -1,0 +1,38 @@
+Food Ingredients and Allergens Dataset Analysis Report
+
+1. Data Loading and Basic Inspection:
+- Dataset loaded using pandas.
+- Displayed the first 5 rows of the dataset to understand the structure.
+
+2. NumPy Operations:
+- Converted the "Main Ingredient" column to a NumPy array.
+- Computed the length of each ingredient name and stored it in an integer array.
+- Demonstrated various NumPy features: creating arrays (zeros, ones, identity), indexing, slicing, reshaping, concatenation, splitting.
+- Used universal functions (sqrt, exp), aggregation (sum, mean), broadcasting, comparisons, fancy indexing, sorting, and partitioning.
+- Created structured and record arrays for advanced manipulation.
+
+3. Pandas Series and DataFrame Usage:
+- Created a Series from "Main Ingredient" column.
+- Accessed elements by position and slice.
+- Demonstrated single and multiple column selection from DataFrame.
+- Applied string operation (uppercase) to Series.
+- Showed index-aligned operations and handling of missing data.
+- Replaced missing values and filtered rows with null values.
+
+4. Hierarchical Indexing:
+- Created a multi-index DataFrame with "Main Ingredient" and "Food Product" as indices.
+
+5. Data Concatenation and Merging:
+- Concatenated two parts of the dataset vertically.
+- Used pandas merge to join with an external ingredient info table.
+- Demonstrated join operation using set_index.
+
+6. Grouping and Aggregation:
+- Grouped data by "Main Ingredient" and computed count of food products.
+- Aggregated data using custom lambda to get most common allergen.
+
+7. Pivot Tables and Visualization:
+- Created a pivot table with "Main Ingredient" vs "Allergens" and filled missing values.
+- Visualized the pivot table as a heatmap using matplotlib.
+- Plotted a pie chart showing top 5 ingredients.
+- Plotted a line chart showing top 15 ingredient frequencies.
